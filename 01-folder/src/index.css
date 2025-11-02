@@ -1,0 +1,104 @@
+@font-face {
+  font-family: roboto;
+  src: url(../src/component/Roboto-VariableFont_wdth\,wght.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: roboto;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+body{
+  background-color: #000;
+  padding: 10px;
+
+}
+.allcard{
+  display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+gap: 20px;
+}
+.card{
+height: 340px;
+width: 300px;
+background-color: #fff;
+border-radius: 35px;
+padding: 20px;
+
+}
+.top{
+  display: flex;
+  align-items: center;
+justify-content: space-between;
+  margin-bottom: 20px;
+}
+.top img{
+
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #dadada;
+  padding: 4px;
+}
+.top button{
+  padding: 4px 8px;
+  border: 1px solid #dadada;
+  border-radius: 6px;
+color: #615f5f;
+}
+.center{
+  height: 170px;
+}
+
+.center h3{
+
+  font-size: 18px;
+}
+.center h3 span{
+  color: gray;
+  font-size: 11px;
+}
+.tag{
+  display: flex;
+  gap: 12px;
+}
+.tag h3{
+  font-size: 14px;
+  background-color: #cfcccc;
+  padding: 4px 8px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  border-top: 2px solid #7e7b7b;
+}
+.bottom button{
+  padding: 10px 12px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.pay{
+  /* text-align: right; */
+  margin-top: 14px;
+  
+}
+
+.pay p{
+  font-size: 12px;
+  color: gray;
+}
