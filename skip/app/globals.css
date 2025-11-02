@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+body{
+  background-color: #ffffff;
+}
+*{
+  color: rgb(19, 17, 17);
+}
