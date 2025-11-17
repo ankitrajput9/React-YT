@@ -3,5 +3,7 @@
 /next/node_modules
 /skip/node_modules
 /tailor-website/node_modules
+/localstorage/node_modules
+/useEffect/node_modules
 
 /README.md
